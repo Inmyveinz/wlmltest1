@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """Hello {},
-My Name Is <a href=https://t.me/{}>{}</a> Iam from WlMl. i will be your tour guide whenever u visit WlMl."""
+My Name Is <a href=https://t.me/{}>{}</a> Iam from WlMl. I will be your tour guide whenever u visit WlMl."""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -32,10 +32,10 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 ━━━━━━━━━━━━᚜ <a href=https://t.me/wlmlchittytherobot><b>WlMl</b></a> ᚛━━━━━━━━━━━━"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>  
 
-- Filter is the feature were users can set automated replies for a particular keyword and Zsearcher will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and I will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. Zsᴇᴀʀᴄʜᴇʀ should have admin privillage.
+1. I should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -50,7 +50,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Zsᴇᴀʀᴄʜᴇʀ supports buttons with any telegram media type.
+2. I supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
@@ -81,7 +81,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-These are the extra features of Zsᴇᴀʀᴄʜᴇʀ
+These are the extra features of Me.
 
 <b>Commands and Usage:</b>
 ➾ /id - <code>get id of a specifed user.</code>
