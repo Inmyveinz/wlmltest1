@@ -396,7 +396,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('Add me to your groups', url='https://t.me/wlmlsource')
+            InlineKeyboardButton('How To Use Me', url='https://t.me/howtouseme')
             ],[
             InlineKeyboardButton('Bot Updates', url='https://t.me/wlmlupdates'),     
             InlineKeyboardButton('Help', callback_data='help')],[
