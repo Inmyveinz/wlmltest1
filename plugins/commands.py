@@ -34,7 +34,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('add me to your groups', url='https://t.me/wlmlsource')
+            InlineKeyboardButton('How To Use Me', url='https://t.me/howtouseme')
             ],[
             InlineKeyboardButton('Bot Updates', url='https://t.me/wlmlupdates'),     
             InlineKeyboardButton('Help', callback_data='help')],[
@@ -73,7 +73,7 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('add me to your groups', url='https://t.me/wlmlsource')
+            InlineKeyboardButton('How To Use Me', url='https://t.me/howtouseme')
             ],[
             InlineKeyboardButton('Bot Updates', url='https://t.me/wlmlupdates'),     
             InlineKeyboardButton('Help', callback_data='help')],[
