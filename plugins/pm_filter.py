@@ -712,7 +712,7 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("Sorry. I don't understand what you are trying to say.. Check your spelling. As per my db, the following are the suggestions for your search. Type any of the suggested titles and send it to me. (DON'T CLICK. THOSE ARE NOT BUTTONS.) NB: add/remove spaces for better results. 
+    await msg.reply("Sorry. I don't understand what you are trying to say.. Check your spelling. As per my db, the following are the suggestions for your search. Type any of the suggested titles and send it to me. DON'T CLICK. THOSE ARE NOT BUTTONS. NB: add or remove spaces for better results. 
 ", reply_markup=InlineKeyboardMarkup(btn))
     
 
